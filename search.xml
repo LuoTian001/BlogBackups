@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>MMLab公开课（二）</title>
+      <link href="/2023/02/03/MMLab%E5%85%AC%E5%BC%80%E8%AF%BE%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+      <url>/2023/02/03/MMLab%E5%85%AC%E5%BC%80%E8%AF%BE%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<h2 id="图像分类概述"><a href="#图像分类概述" class="headerlink" title="图像分类概述"></a>图像分类概述</h2><p>&#8195;&#8195;图像分类问题就是构建一个可实现的计算函数$F:\mathbb{R} ^{H\times W\times 3}\rightarrow \left\{ 1,\cdots ,K \right\} $，且预测结果符合人类认知。但是难点就是图像内容是像素整体呈现出来的结果，和个别像素没有直接的关联，难以设计具体的算法实现。于是需要需要让机器从数据中学习。而机器学习也是有局限的，机器学习算法善于处理低维、分布相对简单的数据，而对于几十万维的复杂数据处理优势就不足了。我们需要更好的图像分类方法。</p><h4 id="特征工程"><a href="#特征工程" class="headerlink" title="特征工程"></a>特征工程</h4><p>&#8195;&#8195;在90年代，人们用计算梯度直方图(Histogram of Oriented Gradients)等一些人工算法将图片映射成相对低维的特征向量，这样极大的简化了数据的表达，同时也保留了内容相关的信息，使得机器学习得以处理图像分类问题。<br>&#8195;&#8195;但是这些也只是特征工程+机器学习算法实现图像分类，性能和效果还有很大的提升。<br><img src="/img/MMlab/8.png" alt="特征工程"></p><h4 id="特征学习"><a href="#特征学习" class="headerlink" title="特征学习"></a>特征学习</h4><p>&#8195;&#8195;之后人们开始探索从特征工程到特征学习的转变，特征学习其实也就是学习如何产生适合分类的特征，将多个简单特征变换复合构成一个复杂的端到端分类器。这样一来使得图像的分类精度得到进一步的提高。<br><img src="/img/MMlab/9.png" alt="特征学习"></p><h4 id="深度学习"><a href="#深度学习" class="headerlink" title="深度学习"></a>深度学习</h4><p>&#8195;&#8195;在 2012 年的竞赛中，来自多伦多大学的团队首次使用<strong>深度学习方法AlexNet</strong>，一举将错误率降低至 15.3% ，而传统视觉算法的性能已经达到瓶颈。到了2015 年，卷积网络的性能已经远超传统方法。<br><img src="/img/MMlab/10.png" alt="深度学习"></p><h2 id="卷积神经网络"><a href="#卷积神经网络" class="headerlink" title="卷积神经网络"></a>卷积神经网络</h2><blockquote><p>第二课的知识点比较密集，需要再整理一下，后续会继续进行发布！<em>QAQ</em></p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MMLab公开课（一）</title>
       <link href="/2023/02/01/MMLab%E5%85%AC%E5%BC%80%E8%AF%BE%EF%BC%88%E4%B8%80%EF%BC%89/"/>
       <url>/2023/02/01/MMLab%E5%85%AC%E5%BC%80%E8%AF%BE%EF%BC%88%E4%B8%80%EF%BC%89/</url>

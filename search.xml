@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>OpenMMLab 实战营打卡 - 第 3 课</title>
+      <link href="/2023/02/04/MMLab%E5%85%AC%E5%BC%80%E8%AF%BE%EF%BC%88%E4%B8%89%EF%BC%89/"/>
+      <url>/2023/02/04/MMLab%E5%85%AC%E5%BC%80%E8%AF%BE%EF%BC%88%E4%B8%89%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>&#8195;&#8195;<em>本节课主要是对 MMcls 的实例应用以及超算平台的使用的讲解。</em></p><h2 id="MMClasification"><a href="#MMClasification" class="headerlink" title="MMClasification"></a>MMClasification</h2><p><img src="/img/MMlab/19.png" alt="MMcls"></p><ul><li>深度学习模型的训练涉及几个方面:<br>&#8195;&#8195;1. 模型结构：模型有几层、每层多少通道数等等<br>&#8195;&#8195;2. 数据集：用什么数据训练模型: 数据集划分、数据文件路径、数据增强策略等等<br>&#8195;&#8195;3. 训练策略：梯度下降算法、学习率参数、batch size 训练总轮次、学习率变化策略等等<br>&#8195;&#8195;4. 运行时：GPU 、分布式环境配置等等<br>&#8195;&#8195;5. 一些辅助功能：如打印日志、定时保存 checkpoint 等等</li><li>在 OpenMMLab 项目中，所有这些项目都涵盖在一个配置文件中，一个配置文件定义了一个完整的训练过程：<br>&#8195;&#8195;1. model 字段定义模型<br>&#8195;&#8195;2. data 字段定义数据<br>&#8195;&#8195;3. optimizer、Ir_config 等字段定义训练策略<br>&#8195;&#8195;4. load_from 字段定义与训练模型的参数文件</li><li>配置文件的运作方式如下：<br><img src="/img/MMlab/20.png" alt="配置文件的运作方式"></li><li>图像分类模型的构成：<br><img src="/img/MMlab/21.png" alt="图像分类模型的构成"></li><li>图像分类模型的构建：<br><img src="/img/MMlab/22.png" alt="图像分类模型的构建"></li><li>数据集的构建：<br><img src="/img/MMlab/23.png" alt="数据集的构建"></li><li>定义数据加载流水线：<br><img src="/img/MMlab/24.png" alt="数据加载流水线"></li><li>配置学习策略：<br><img src="/img/MMlab/25.png" alt="学习策略"></li><li>预训练模型库：<br><a href="https://mmclassification.readthedocs.io/en/latest/modelzoo statistics.html">MODEL ZOO SUMMARY</a></li></ul><h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><ul><li>MMLab 官方主页<br>&#8195;&#8195;<a href="https://space.bilibili.com/1293512903">bilibili-OpenMMLab</a><br>&#8195;&#8195;<a href="https://github.com/open-mmlab">GitHub-OpenMMLab</a></li><li>MMLab 官方中文文档<br>&#8195;&#8195;<font color=blue><a href="https://mmcv.readthedocs.io/zh_CN/latest/">mmcv</a></font><br>&#8195;&#8195;<font color=blue><a href="https://mmengine.readthedocs.io/zh_CN/latest/">mmengine</a></font><br>&#8195;&#8195;<font color=blue><a href="https://mmdetection.readthedocs.io/zh_CN/latest/">mmdetection</a></font><br>&#8195;&#8195;<font color=blue><a href="https://mmclassification.readthedocs.io/zh_CN/latest/">mmclassification</a></font><br>&#8195;&#8195;<font color=blue><a href="https://mmsegmentation.readthedocs.io/zh_CN/latest/">mmsegmentation</a></font></li><li>其他<br>&#8195;&#8195;<font color=blue><a href="/FilesForDownload/北京超级云计算中心使用手册-2022夏季版.pdf">北京超算用户手册_(点击下载)</a></font><br>&#8195;&#8195;<font color=blue><a href="/FilesForDownload/宁夏超算云N30区用户手册v2.4.pdf">宁夏超算N30用户手册_(点击下载)</a></font><br>&#8195;&#8195;<font color=blue><a href="/FilesForDownload/output.lin.pdf">超算平台实例操作代码_(点击下载)</a></font><br>&#8195;&#8195;<font color=blue><a href="https://zhuanlan.zhihu.com/p/580885852">OpenMMLab 2.0 源码阅读和调试「必备」技巧</a></font><br>&#8195;&#8195;<font color=blue><a href="https://zhuanlan.zhihu.com/p/602883781">北京超算云计算平台深度学习环境配置</a></font></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> MMLab </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MMLab </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>OpenMMLab 实战营打卡 - 第 2 课</title>
       <link href="/2023/02/03/MMLab%E5%85%AC%E5%BC%80%E8%AF%BE%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
       <url>/2023/02/03/MMLab%E5%85%AC%E5%BC%80%E8%AF%BE%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
